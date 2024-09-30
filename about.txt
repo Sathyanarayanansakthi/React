@@ -1,0 +1,46 @@
+useState hook =>values changes in state variable  will compont will re render
+  it is functionalitive hook
+
+useEffect hook => when an API call we use this hook and adding new data
+  ex:Insta post 
+  erform side effects in function components. A side 
+  effect is anything that affects something outside of the component, 
+  it is functionalitive hook
+  import useState and useEffect hook
+  while calling that hook we need pass 2 parameters (1 is call back function and another is array)
+  
+  * if the array is empty or not hook will run for first time *
+    and the array is empty the hook will run one time only and if the componet runs every time the use hook will not run 
+    
+    if array has values any values it will runs when every time components reload
+ and memory leakage will he happen so we need to check that
+
+ return ()=> {
+    setNum1(100); 
+ }
+ for memoryleakage code
+
+
+
+useRef hook =>
+  import useState asnd useRef hook
+  aviod unwanted re-render  by using usestate hook 
+  it is functionalitive hook
+
+
+useMemo hook=>
+  this hook is used to optimize performance by memoizing the result
+  it will rember the old value in its memoery
+ syntax simalar to useEffecthook 
+ no running slow for the memoried vaule
+
+useCallback hook=>
+
+
+useRouter hook=>
+
+
+useContext hook=>
+
+
+useLayout hook=>
