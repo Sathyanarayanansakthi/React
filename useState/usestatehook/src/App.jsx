@@ -16,3 +16,9 @@ function App() {
 }
 
 export default App
+
+//steps
+//1.importing useState from react 
+//2.hook takes a single optional arugument an initial value for the state.
+//3 state variable and afunction to update the state
+

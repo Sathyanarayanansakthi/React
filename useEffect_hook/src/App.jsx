@@ -24,3 +24,19 @@ function App() {
 }
 
 export default App
+
+
+//steps
+//1.importing useEffect amd useState hooks form react 
+//2.creating  state variable and use named updated funtion and calling useState hook 
+//3.using useEffct hook in from react js it syntax is
+//useEffect syntax  useEffect (()=>{})  in that curly brakets contans the main fecth code 
+//4.read the code cleary 
+
+//thank you  
+
+
+/*useEffct running
+ useEffect 2 arugments  1. function with code running 
+                        2. an array that continas alist values from the components scope(like props ,context ,and a state variable knows as a dependency array)
+*/
